@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    text-align: center;
+    color: rgb(0, 97, 129);
+    font-size: x-large;
+}
+
+.content {
+    /* width: 50%; */
+    /* margin: auto; */
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 768px;
+    font-size: larger;
+}
+
+table caption {
+    font-size: larger;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: beige;
+}
